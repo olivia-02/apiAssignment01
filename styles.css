@@ -54,6 +54,7 @@ ul{
 }
 header li {
 	display: inline;
+	margin: 0px 10px;
 }
 footer {
 	position: fixed;

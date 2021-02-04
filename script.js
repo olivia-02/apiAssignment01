@@ -42,7 +42,6 @@ submit.addEventListener("click", function() {
 		})
 		.then((response) => response.json())
 		.then(response => {
-			input1.style.width = "";
 			resultList.innerHTML = "";
 			for (var i = 0; i < response.results.length; i++) {
 				recipe = "<li><a href='" + response.results[i].href + "'>" + response.results[i].title + "</li>"
