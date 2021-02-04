@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Olivia Robson : Assignment01</title>
+		<meta name="description" content="First API Assignment">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Lemonada:wght@300;500;700&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="styles.css">
+	</head>
+	<body>
+		<header>
+			<div id="header">
+				<h1>What's For Dinner?</h1>
+			</div>
+			<div id="links">
+				<ul>
+					<li>About</li>
+					<li>Favourites</li>
+				</ul>
+			</div>
+		</header>
+		<section>
+			<h3>Choose some ingredients and we'll give you some ideas!!</h3>
+			<form>
+				<label for="ingredients">Ingredients (Seperated by commas):</label><br>
+				<input type="text" id="ingredients" name="ingredients"><span id="growtext1"></span><br>
+				<label for="query">Add a Keyword:</label><br>
+				<input type="text" id="query" name="query"><span id="growtext2"></span><br>
+				<input type="button" value="Submit" id="submit">
+			</form>
+			<div>
+				<ul id="results">
+
+				</ul>
+			</div>
+		</section>
+		<footer>
+			 <p>Copyright 2021, Olivia Robson</p>
+		</footer>
+		<script src="script.js"></script>
+	</body>
+</html>
